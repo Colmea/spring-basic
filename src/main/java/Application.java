@@ -16,5 +16,6 @@ public class Application {
         Speaker firstSpeaker = speakerService.findAll().get(0);
 
         System.out.println("Speaker 0: " + firstSpeaker.getFirstName() + " " + firstSpeaker.getLastName());
+        System.out.println("Speaker 0: " + firstSpeaker.getSeedNum());
     }
 }
